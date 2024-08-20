@@ -6,6 +6,6 @@ For example, the binary sequence
 $$s = (1,1,0,1,0,0)$$
 is of length $6$ and returns $3$, as the symmetric subsequences are $(1,1), (0,1,0), (0)$.
 
-Let $m_{b,n}$ be the maximal number of symmetric subsequences for a base $b$ sequence of length $n$.It is not too hard to show that for $b>2$, we have $m_{b,n} = n$. Interestingly, for $b=2$ we have $m_{2,n} = \lfloor \frac{3n+10}{7} \rfloor.$ 
+Let $m_{b,n}$ be the maximal number of symmetric subsequences for a base $b$ sequence of length $n$. It is not too hard to show that for $b>2$, we have $m_{b,n} = n$. Interestingly, for $b=2$ we have $m_{2,n} = \lfloor \frac{3n+10}{7} \rfloor.$ 
 
 This project proves this claim and computes values of $m_{b,n}.$
